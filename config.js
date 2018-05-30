@@ -3,8 +3,8 @@ var config = {};
 config.steem = {};
 
 //Global Configuration
-config.steem.username = process.env.STEEM_USER || 'ENTER_USERNAME_HERE';
-config.steem.password =  process.env.STEEM_PASSWORD || 'ENTER_PASSWORD_HERE';
+config.steem.username = process.env.STEEM_USER || 'mahekukreja';
+config.steem.password =  process.env.STEEM_PASSWORD || 'P5KQ4oBHpdFm2tCjoqJkPj6PyuzTCerg6VV6piVbHWhXVh2e4T5z';
 config.steem.url = 'wss://steemd-int.steemit.com';
 config.steem.auth_type = 'owner'; //owner, posting
 
